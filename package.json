@@ -1,0 +1,10 @@
+{
+  "name": "arcana-core",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "dev": "vite", "build": "tsc --noEmit && vite build", "lint": "tsc --noEmit", "test": "vitest run" },
+  "dependencies": { "@cloudflare/workers-types": "^4.20240925.0" },
+  "devDependencies": { "@types/node": "^22.7.4", "typescript": "^5.6.2", "vite": "^5.4.8", "vitest": "^2.1.2" }
+}
