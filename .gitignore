@@ -141,3 +141,14 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# ESP-IDF / embedded build outputs
+firmware/**/build/
+firmware/**/sdkconfig
+firmware/**/sdkconfig.old
+firmware/**/.cache/
+
+# Python cache / test output
+__pycache__/
+*.pyc
+.pytest_cache/
